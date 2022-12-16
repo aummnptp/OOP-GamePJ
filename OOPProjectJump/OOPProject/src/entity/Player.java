@@ -52,11 +52,11 @@ public class Player extends Entity{
     
 
     public void update() {
-    //    fallspeed += 0.2;
-    //     y += fallspeed;
-    //     if (y > 500){
-    //     fallspeed = -10;
-    //         }
+       fallspeed += 0.2;
+        y += fallspeed;
+        if (y > 500){
+        fallspeed = -10;
+            }
 
 
         if (keyH.upPressed == true) {
